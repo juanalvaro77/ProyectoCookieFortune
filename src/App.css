@@ -1,17 +1,17 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  /*padding: 2rem;*/
   text-align: center;
 }
 
 body {
   max-width: 1280px;
   margin: 0 auto;
-  /*padding: 2rem;*/
   text-align: center;
 }
-
+/*.card2{
+  display: none;
+}*/
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -24,15 +24,6 @@ body {
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-/*
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -54,40 +45,6 @@ body {
   align-items: center;
   height: 100vh;
 }
-/*
-body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-button {
-  background: darkblue;
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.user-card img {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
-
-.user-card ul{
-  list-style: none;
-  padding: 0;
-}
-
-.user-card ul li {
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.user-card ul li i {
-margin-right: 10px;
-}
-*/
 
 .show-fortune{
   box-shadow: 20px 10px 8px rgba(0, 0, 0, 0.3);
